@@ -56,8 +56,8 @@ func SearchBookName(books []Book, bookName string) {
 
 func ListBookNames(books []Book) {
 
-	for _, s := range books {
-		fmt.Println(s)
+	for i, s := range books {
+		fmt.Println(i,s)
 	}
 
 }
