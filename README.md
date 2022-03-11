@@ -26,21 +26,21 @@ This command allows us to scan the objects we have defined in the application to
 ## Used Functions
 
 ### json.Unmarshal()
-'''
+```
 json.Unmarshal([]byte(bookJson), &books)
-'''
+```
 Golang provides multiple APIs to work with JSON including to and from built-in and custom data types using the encoding/json package. To parse JSON, we use the Unmarshal() function in package encoding/json to unpack or decode the data from JSON to a struct.
 
 ### strings.Join()
-'''
+```
 strings.Join(searchArg, " ")
-'''
+```
 strings.Join() Function in Golang concatenates all the elements present in the slice of string into a single string. This function is available in the string package.
 
 ### strings.EqualFold()
-'''
+```
 strings.EqualFold(books[i].Names, bookName)
-'''
+```
 strings.EqualFold() Function in Golang reports whether s and t, interpreted as UTF-8 strings, are equal under Unicode case-folding, which is a more general form of case-insensitivity.
 
 ## Requirements
